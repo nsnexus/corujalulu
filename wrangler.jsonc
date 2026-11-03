@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "era-uma-vez-eu",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": { "enabled": true },
+  // Variáveis não secretas (as secretas vão via `wrangler secret put`)
+  "vars": {
+    "OPENAI_TEXT_MODEL": "gpt-4.1-mini",
+    "OPENAI_IMAGE_MODEL": "gpt-image-1",
+    "IMAGE_QUALITY": "medium",
+    "PAYMENTS_DISABLED": "false"
+  }
+}

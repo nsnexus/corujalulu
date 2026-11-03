@@ -1,0 +1,26 @@
+# ===== Copie para .env.local (dev) e .dev.vars (preview Cloudflare) =====
+
+# Site
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+
+# Supabase (Project Settings > API)
+NEXT_PUBLIC_SUPABASE_URL=https://SEU-PROJETO.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...
+SUPABASE_SERVICE_ROLE_KEY=eyJ...        # SECRETO - nunca exponha no front
+
+# OpenAI (texto + ilustrações)
+OPENAI_API_KEY=sk-...                   # SECRETO
+OPENAI_TEXT_MODEL=gpt-4.1-mini
+OPENAI_IMAGE_MODEL=gpt-image-1
+IMAGE_QUALITY=medium                    # low | medium | high
+IMAGE_INPUT_FIDELITY=high               # deixe vazio se o modelo não suportar
+
+# Mercado Pago (Suas integrações > Credenciais de produção)
+MP_ACCESS_TOKEN=APP_USR-...             # SECRETO
+MP_WEBHOOK_SECRET=...                   # SECRETO (Webhooks > assinatura secreta)
+
+# Admin: e-mails separados por vírgula
+ADMIN_EMAILS=seu-email@exemplo.com
+
+# true = pula o pagamento (apenas para testes!)
+PAYMENTS_DISABLED=false
