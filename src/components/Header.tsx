@@ -55,7 +55,7 @@ export default function Header({ landing = false }: { landing?: boolean }) {
             href="/criar"
             className="btn-primary text-sm px-5 py-2.5 shadow-md shadow-magic-600/20"
           >
-            Criar livro grátis ✨
+            Criar meu livro ✨
           </Link>
         </div>
 
@@ -109,7 +109,7 @@ export default function Header({ landing = false }: { landing?: boolean }) {
               onClick={() => setMobileMenuOpen(false)}
               className="btn-primary mt-2 w-full text-center py-3 text-base"
             >
-              Começar meu livro grátis ✨
+              Começar meu livro ✨
             </Link>
           </nav>
         </div>

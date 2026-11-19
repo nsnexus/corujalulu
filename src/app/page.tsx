@@ -181,7 +181,7 @@ export default function Home() {
                 href="/criar"
                 className="btn-sun text-center py-4 text-lg font-black shadow-xl shadow-amber-500/30"
               >
-                <span>✨ Criar Livro Grátis Agora</span>
+                <span>✨ Criar Meu Livro Agora</span>
                 <span className="text-xl">→</span>
               </Link>
 
@@ -572,7 +572,7 @@ export default function Home() {
                 href="/criar"
                 className="btn-sun inline-flex text-lg px-8 py-4 shadow-2xl shadow-amber-400/50"
               >
-                Começar Livro Mágico Grátis ✨
+                Começar Meu Livro Mágico ✨
               </Link>
             </div>
           </div>

@@ -49,7 +49,7 @@ export default function MobileStickyBar() {
           href="/criar"
           className="flex-shrink-0 rounded-full bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 px-5 py-3 font-display text-sm font-black text-ink shadow-lg shadow-amber-400/30 transition-transform active:scale-95"
         >
-          Criar Livro Grátis ✨
+          Criar Meu Livro ✨
         </Link>
       </div>
     </aside>

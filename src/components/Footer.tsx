@@ -31,7 +31,7 @@ export default function Footer() {
           <ul className="space-y-2 text-white/70">
             <li>
               <Link href="/criar" className="hover:text-amber-300 transition-colors">
-                ✨ Criar Livro Grátis
+                ✨ Criar Meu Livro
               </Link>
             </li>
             <li>
